@@ -36,4 +36,51 @@ a {
 .hero {
     background-color: #1F2937;
     flex: 1;
+    display: flex;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1 1 0px;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    padding: 0;
+    gap: 10px;
+}
+
+.hero-left .text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-left .subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero-right {
+    flex: 1 1 0px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-right .placeholder {
+    background-color: darkgray;
+    padding: 100px 100px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 40px;
+    border-radius: 12px;
+    border: 1px solid #3882F6;
 }
