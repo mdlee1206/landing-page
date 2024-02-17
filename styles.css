@@ -2,11 +2,17 @@
 
 body {
     font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
 }
 
 a {
     text-decoration: none;
     color: #E5E7EB;
+    padding: 0 10px;
 }
 
 .header,
@@ -14,8 +20,15 @@ a {
     background-color: #1F2937;
     display: flex;
     color: #F9FAF8;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .header .logo {
     font-size: 24px;
+    font-weight: 700;
+}
+
+.header .links {
+    padding: 20px;
 }
