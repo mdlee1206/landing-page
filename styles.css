@@ -32,3 +32,8 @@ a {
 .header .links {
     padding: 20px;
 }
+
+.hero {
+    background-color: #1F2937;
+    flex: 1;
+}
