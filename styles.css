@@ -119,3 +119,27 @@ button {
 .random-info-container .grid .item img {
     border-radius: 12px;
 }
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 400px;
+}
+
+.quote-container .quote {
+    font-size: 36px;
+    font-weight: 300;
+    width: 800px;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    width: 800px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1F2937;
+}
